@@ -9,6 +9,8 @@
 #         c.append(i)
 # print(c)
 
+# улучшение
+
 s= list(map(int, input('Введите последовательность чисел через пробел: ').split()))
 s1=[i for i in s if s.count(i)==1]
 print(f'Список из неповторяющихся элементов: ', s1)
